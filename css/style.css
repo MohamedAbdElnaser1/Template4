@@ -31,8 +31,13 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    height: 80px;
     width: 95%;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .logo img {
     width: 150px;
@@ -71,6 +76,13 @@ ul {
     }
     
 }
+@media (max-width: 768px) {
+    .nav ul li a {
+        padding: 0 7px;
+    }
+    
+}
+
 /* X header X */
 
 /* intro */
@@ -454,6 +466,12 @@ ul {
     .social {
         width: 50%;
         margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .social I {
+        font-size: 14px;
+        padding: 7px;
     }
 }
 /* X footer X */
